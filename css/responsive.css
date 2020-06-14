@@ -1,0 +1,206 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+@media (min-width:384px) {
+
+   /* .container {
+      max-width:350px;
+      margin:0 auto;
+   } */
+
+}
+
+/* sm screens */
+@media (min-width:576px) {
+
+   /* FOOTER */
+
+   footer,
+   footer .breadcrumb a {
+      font-size: 1rem;
+   }
+
+}
+
+/* md screens */
+@media (min-width:768px) {
+
+   /* HEADER */
+
+   .about .container {
+      background-position: right top;
+   }
+
+}
+
+/* lg screens */
+@media (min-width:992px) {
+
+   /* HEADER */
+
+   .navbar-brand img {
+      max-width: 100%;
+   }
+
+   .navbar-nav .nav-item {
+      margin-left: 1rem;
+   }
+
+   .navbar-nav .nav-item:nth-of-type(5) .nav-link {
+      color: #1FDB84;
+   }
+
+   .navbar-nav .nav-item:nth-of-type(6) .nav-link:hover {
+      background: rgb(27, 189, 113);
+   }
+
+   .navbar-nav .nav-item:nth-of-type(6) .nav-link:focus {
+      color: #fff;
+   }
+
+   .navbar-light .navbar-nav .nav-link {
+      padding: 0.5rem 0.3rem;
+   }
+
+   .navbar-light .navbar-nav .nav-link::after {
+      content: '';
+      width: 100%;
+      height: 4px;
+      background: #1FDB84;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      -webkit-transform: scaleX(0);
+          -ms-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transition: 0.3s ease-out;
+      -o-transition: 0.3s ease-out;
+      transition: 0.3s ease-out;
+   }
+
+   .navbar-light .navbar-nav .nav-link:hover {
+      background: none;
+   }
+
+   .navbar-light .navbar-nav .nav-item:not(:last-of-type) .nav-link:hover::after,
+   .navbar-light .navbar-nav .nav-link.active::after {
+      -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+              transform: scaleX(1);
+      opacity: 1;
+   }
+
+   /* ---------------------------- */
+
+   .about .about-title {
+      font-size: 3rem;
+      line-height: 3.5rem;
+   }
+
+   .about-btn {
+      padding: 1.25rem 3.4rem;
+   }
+
+   /* PRICE */
+
+   .price .price-title {
+      font-size: 2.5rem;
+      line-height: 3.7rem;
+   }
+
+   .price .price-table {
+      -webkit-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      border-top: 3px solid transparent;
+      background: transparent;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+   }
+
+   .price .price-table:hover {
+      background: #fff;
+      -webkit-box-shadow: 0 7px 24px rgba(83, 83, 83, 0.1);
+              box-shadow: 0 7px 24px rgba(83, 83, 83, 0.1);
+      border-top-color: #0A8AFF;
+   }
+
+   /* TESTEMONIALS */
+
+   .testemonials-title {
+      padding: 4.3rem 0.9rem 9.4rem;
+   }
+
+}
+
+/* xl screens */
+@media (min-width:1200px) {
+
+   /* UTILITY CLASSES */
+
+   .col-xl-5ths {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 20%;
+              flex: 0 0 20%;
+      max-width: 20%;
+   }
+
+   /* HEADER */
+
+   .navbar-nav .nav-item {
+      margin-left: 2.3rem;
+   }
+
+   /* ------------------------- */
+
+   .about .container {
+      padding: 7.25rem 0.9rem 19.6rem;
+   }
+
+   /* BENEFITS */
+
+   .benefits .wrapper {
+      max-width: 1257px;
+      position: relative;
+      top: -111px;
+      margin-bottom: -111px;
+      -webkit-box-shadow: 0 10px 34px rgba(210, 210, 210, 0.5);
+              box-shadow: 0 10px 34px rgba(210, 210, 210, 0.5);
+   }
+
+   /* GALLERY */
+
+   .gallery a.d-block::after {
+      background: rgba(31, 219, 132, 0);
+   }
+
+   .gallery a.d-block .zoom {
+      opacity: 0;
+   }
+
+   .gallery a.d-block:hover::after {
+      background: rgba(31, 219, 132, 0.3);
+   }
+
+   .gallery a.d-block:hover .zoom {
+      opacity: 1;
+   }
+
+   /* PLATFORMS */
+
+   .platform .platform-item {
+      -webkit-transition:0.5s ease-out;
+      -o-transition:0.5s ease-out;
+      transition:0.5s ease-out;
+      border-radius:10px;
+   }
+
+   .platform .platform-item:hover {
+      -webkit-transform:scale(1.2);
+          -ms-transform:scale(1.2);
+              transform:scale(1.2);
+      -webkit-box-shadow: 0 20px 34px rgba(210,210,210,0.5);
+              box-shadow: 0 20px 34px rgba(210,210,210,0.5);
+   }
+}
